@@ -1,0 +1,84 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+body {
+    padding-top: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+body {
+    padding-top: 30px; /* Set padding-top to the height of header */
+}
+
+#header {
+    position: fixed; /* Set header to fixed position */
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Set background color of header */
+    z-index: 1000; /* Set z-index to ensure header stays on top of other content */
+    transition: top 0.3s; /* Add smooth transition when sliding down */
+}
+
+#header {
+    background-image: url('assets/d.jpg');
+    background-size: cover; /* Memastikan gambar latar belakang menutupi seluruh area header */
+    background-position: center; /* Memposisikan gambar latar belakang di tengah header */
+}
+
+
+#header.nav-up {
+    top: -60px; /* Slide header up when user scrolls down */
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Sesuaikan dengan warna latar belakang yang Anda inginkan */
+    padding: 20px 0; /* Sesuaikan padding sesuai kebutuhan */
+    text-align: center; /* Sesuaikan penataan teks sesuai kebutuhan */
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-logos a {
+    color: #000; /* Ganti dengan warna yang sesuai */
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px; /* Jarak antara ikon */
+}
+
+.footer-logos a:hover {
+    color: #ff0000; /* Ganti dengan warna yang sesuai saat hover */
+}
+
+body {
+    background-image: url('assets/d.jpg');
+    background-size: cover; /* untuk memastikan gambar latar belakang menutupi seluruh area body */
+    background-position: center; /* untuk memposisikan gambar latar belakang di tengah */
+}
